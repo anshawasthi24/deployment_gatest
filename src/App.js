@@ -6,6 +6,16 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import TagManager from 'react-gtm-module'
+
+
+
+const tagManagerArgs = {
+  gtmId: 'GTM-MR3VS4M'
+}
+
+TagManager.initialize(tagManagerArgs)
+
 
 
 function App() {
